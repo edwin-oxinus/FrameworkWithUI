@@ -1,0 +1,6 @@
+framework module trialuisdkProject {
+  umbrella header "trialuisdkProject.h"
+  export *
+
+  module * { export * }
+}

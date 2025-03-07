@@ -1,0 +1,5422 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "trialuisdkProject",
+    "printedName": "trialuisdkProject",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "trialuisdkProject",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SendTokenView",
+        "printedName": "SendTokenView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject13SendTokenViewV4bodyQrvp",
+            "mangledName": "$s17trialuisdkProject13SendTokenViewV4bodyQrvp",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject13SendTokenViewV4bodyQrvg",
+                "mangledName": "$s17trialuisdkProject13SendTokenViewV4bodyQrvg",
+                "moduleName": "trialuisdkProject",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SendTokenView",
+                "printedName": "trialuisdkProject.SendTokenView",
+                "usr": "s:17trialuisdkProject13SendTokenViewV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17trialuisdkProject13SendTokenViewVACycfc",
+            "mangledName": "$s17trialuisdkProject13SendTokenViewVACycfc",
+            "moduleName": "trialuisdkProject",
+            "implicit": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17trialuisdkProject13SendTokenViewV",
+        "mangledName": "$s17trialuisdkProject13SendTokenViewV",
+        "moduleName": "trialuisdkProject",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SendTokenView_preview",
+        "printedName": "SendTokenView_preview",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "previews",
+            "printedName": "previews",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject21SendTokenView_previewV8previewsQrvpZ",
+            "mangledName": "$s17trialuisdkProject21SendTokenView_previewV8previewsQrvpZ",
+            "moduleName": "trialuisdkProject",
+            "static": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject21SendTokenView_previewV8previewsQrvgZ",
+                "mangledName": "$s17trialuisdkProject21SendTokenView_previewV8previewsQrvgZ",
+                "moduleName": "trialuisdkProject",
+                "static": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SendTokenView_preview",
+                "printedName": "trialuisdkProject.SendTokenView_preview",
+                "usr": "s:17trialuisdkProject21SendTokenView_previewV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17trialuisdkProject21SendTokenView_previewVACycfc",
+            "mangledName": "$s17trialuisdkProject21SendTokenView_previewVACycfc",
+            "moduleName": "trialuisdkProject",
+            "implicit": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17trialuisdkProject21SendTokenView_previewV",
+        "mangledName": "$s17trialuisdkProject21SendTokenView_previewV",
+        "moduleName": "trialuisdkProject",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PreviewProvider",
+            "printedName": "PreviewProvider",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Previews",
+                "printedName": "Previews",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI15PreviewProviderP",
+            "mangledName": "$s7SwiftUI15PreviewProviderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_PreviewProvider",
+            "printedName": "_PreviewProvider",
+            "usr": "s:7SwiftUI16_PreviewProviderP",
+            "mangledName": "$s7SwiftUI16_PreviewProviderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "trialuisdkProject",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "trialuisdkProject"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "introScreen",
+        "printedName": "introScreen",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "currentAEDBalance",
+            "printedName": "currentAEDBalance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject11introScreenV17currentAEDBalanceSdvp",
+            "mangledName": "$s17trialuisdkProject11introScreenV17currentAEDBalanceSdvp",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject11introScreenV17currentAEDBalanceSdvg",
+                "mangledName": "$s17trialuisdkProject11introScreenV17currentAEDBalanceSdvg",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(currentAEDBalance:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "introScreen",
+                "printedName": "trialuisdkProject.introScreen",
+                "usr": "s:17trialuisdkProject11introScreenV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17trialuisdkProject11introScreenV17currentAEDBalanceACSd_tcfc",
+            "mangledName": "$s17trialuisdkProject11introScreenV17currentAEDBalanceACSd_tcfc",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject11introScreenV4bodyQrvp",
+            "mangledName": "$s17trialuisdkProject11introScreenV4bodyQrvp",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject11introScreenV4bodyQrvg",
+                "mangledName": "$s17trialuisdkProject11introScreenV4bodyQrvg",
+                "moduleName": "trialuisdkProject",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17trialuisdkProject11introScreenV",
+        "mangledName": "$s17trialuisdkProject11introScreenV",
+        "moduleName": "trialuisdkProject",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CryptoInfoManager",
+        "printedName": "CryptoInfoManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CryptoInfoManager",
+                "printedName": "trialuisdkProject.CryptoInfoManager",
+                "usr": "s:17trialuisdkProject17CryptoInfoManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject17CryptoInfoManagerC6sharedACvpZ",
+            "mangledName": "$s17trialuisdkProject17CryptoInfoManagerC6sharedACvpZ",
+            "moduleName": "trialuisdkProject",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CryptoInfoManager",
+                    "printedName": "trialuisdkProject.CryptoInfoManager",
+                    "usr": "s:17trialuisdkProject17CryptoInfoManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject17CryptoInfoManagerC6sharedACvgZ",
+                "mangledName": "$s17trialuisdkProject17CryptoInfoManagerC6sharedACvgZ",
+                "moduleName": "trialuisdkProject",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "fetchStableCoinBalance",
+            "printedName": "fetchStableCoinBalance()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17trialuisdkProject17CryptoInfoManagerC22fetchStableCoinBalanceSdyF",
+            "mangledName": "$s17trialuisdkProject17CryptoInfoManagerC22fetchStableCoinBalanceSdyF",
+            "moduleName": "trialuisdkProject",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17trialuisdkProject17CryptoInfoManagerC",
+        "mangledName": "$s17trialuisdkProject17CryptoInfoManagerC",
+        "moduleName": "trialuisdkProject",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "trialuisdkProject",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BuyStableCoinView",
+        "printedName": "BuyStableCoinView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "currentBalance",
+            "printedName": "currentBalance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject17BuyStableCoinViewV14currentBalance33_A8C41D201025566396214E1511FBED5BLLSdvp",
+            "mangledName": "$s17trialuisdkProject17BuyStableCoinViewV14currentBalance33_A8C41D201025566396214E1511FBED5BLLSdvp",
+            "moduleName": "trialuisdkProject",
+            "isInternal": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "_amountToPay",
+            "printedName": "_amountToPay",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "State",
+                "printedName": "SwiftUI.State<Swift.String>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:7SwiftUI5StateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject17BuyStableCoinViewV12_amountToPay33_A8C41D201025566396214E1511FBED5BLL7SwiftUI5StateVySSGvp",
+            "mangledName": "$s17trialuisdkProject17BuyStableCoinViewV12_amountToPay33_A8C41D201025566396214E1511FBED5BLL7SwiftUI5StateVySSGvp",
+            "moduleName": "trialuisdkProject",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "_amountToGet",
+            "printedName": "_amountToGet",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "State",
+                "printedName": "SwiftUI.State<Swift.String>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:7SwiftUI5StateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject17BuyStableCoinViewV12_amountToGet33_A8C41D201025566396214E1511FBED5BLL7SwiftUI5StateVySSGvp",
+            "mangledName": "$s17trialuisdkProject17BuyStableCoinViewV12_amountToGet33_A8C41D201025566396214E1511FBED5BLL7SwiftUI5StateVySSGvp",
+            "moduleName": "trialuisdkProject",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(currentBalance:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BuyStableCoinView",
+                "printedName": "trialuisdkProject.BuyStableCoinView",
+                "usr": "s:17trialuisdkProject17BuyStableCoinViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17trialuisdkProject17BuyStableCoinViewV14currentBalanceACSd_tcfc",
+            "mangledName": "$s17trialuisdkProject17BuyStableCoinViewV14currentBalanceACSd_tcfc",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject17BuyStableCoinViewV4bodyQrvp",
+            "mangledName": "$s17trialuisdkProject17BuyStableCoinViewV4bodyQrvp",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject17BuyStableCoinViewV4bodyQrvg",
+                "mangledName": "$s17trialuisdkProject17BuyStableCoinViewV4bodyQrvg",
+                "moduleName": "trialuisdkProject",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17trialuisdkProject17BuyStableCoinViewV",
+        "mangledName": "$s17trialuisdkProject17BuyStableCoinViewV",
+        "moduleName": "trialuisdkProject",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CardView",
+        "printedName": "CardView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject8CardViewV5titleSSvp",
+            "mangledName": "$s17trialuisdkProject8CardViewV5titleSSvp",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject8CardViewV5titleSSvg",
+                "mangledName": "$s17trialuisdkProject8CardViewV5titleSSvg",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currency",
+            "printedName": "currency",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject8CardViewV8currencySSvp",
+            "mangledName": "$s17trialuisdkProject8CardViewV8currencySSvp",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject8CardViewV8currencySSvg",
+                "mangledName": "$s17trialuisdkProject8CardViewV8currencySSvg",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "balance",
+            "printedName": "balance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject8CardViewV7balanceSSvp",
+            "mangledName": "$s17trialuisdkProject8CardViewV7balanceSSvp",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject8CardViewV7balanceSSvg",
+                "mangledName": "$s17trialuisdkProject8CardViewV7balanceSSvg",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "icon",
+            "printedName": "icon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject8CardViewV4iconSSvp",
+            "mangledName": "$s17trialuisdkProject8CardViewV4iconSSvp",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 3,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject8CardViewV4iconSSvg",
+                "mangledName": "$s17trialuisdkProject8CardViewV4iconSSvg",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "amount",
+            "printedName": "amount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject8CardViewV6amountSSvp",
+            "mangledName": "$s17trialuisdkProject8CardViewV6amountSSvp",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "ProjectedValueProperty",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject8CardViewV6amountSSvg",
+                "mangledName": "$s17trialuisdkProject8CardViewV6amountSSvg",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject8CardViewV6amountSSvs",
+                "mangledName": "$s17trialuisdkProject8CardViewV6amountSSvs",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject8CardViewV6amountSSvM",
+                "mangledName": "$s17trialuisdkProject8CardViewV6amountSSvM",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$amount",
+            "printedName": "$amount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.String>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject8CardViewV7$amount7SwiftUI7BindingVySSGvp",
+            "mangledName": "$s17trialuisdkProject8CardViewV7$amount7SwiftUI7BindingVySSGvp",
+            "moduleName": "trialuisdkProject",
+            "implicit": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject8CardViewV7$amount7SwiftUI7BindingVySSGvg",
+                "mangledName": "$s17trialuisdkProject8CardViewV7$amount7SwiftUI7BindingVySSGvg",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "_amount",
+            "printedName": "_amount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.String>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject8CardViewV7_amount33_A8C41D201025566396214E1511FBED5BLL7SwiftUI7BindingVySSGvp",
+            "mangledName": "$s17trialuisdkProject8CardViewV7_amount33_A8C41D201025566396214E1511FBED5BLL7SwiftUI7BindingVySSGvp",
+            "moduleName": "trialuisdkProject",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 4,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject8CardViewV4bodyQrvp",
+            "mangledName": "$s17trialuisdkProject8CardViewV4bodyQrvp",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject8CardViewV4bodyQrvg",
+                "mangledName": "$s17trialuisdkProject8CardViewV4bodyQrvg",
+                "moduleName": "trialuisdkProject",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(title:currency:balance:icon:amount:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CardView",
+                "printedName": "trialuisdkProject.CardView",
+                "usr": "s:17trialuisdkProject8CardViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.String>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17trialuisdkProject8CardViewV5title8currency7balance4icon6amountACSS_S3S7SwiftUI7BindingVySSGtcfc",
+            "mangledName": "$s17trialuisdkProject8CardViewV5title8currency7balance4icon6amountACSS_S3S7SwiftUI7BindingVySSGtcfc",
+            "moduleName": "trialuisdkProject",
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17trialuisdkProject8CardViewV",
+        "mangledName": "$s17trialuisdkProject8CardViewV",
+        "moduleName": "trialuisdkProject",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BuyStableCoinView_Previews",
+        "printedName": "BuyStableCoinView_Previews",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "previews",
+            "printedName": "previews",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject26BuyStableCoinView_PreviewsV8previewsQrvpZ",
+            "mangledName": "$s17trialuisdkProject26BuyStableCoinView_PreviewsV8previewsQrvpZ",
+            "moduleName": "trialuisdkProject",
+            "static": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject26BuyStableCoinView_PreviewsV8previewsQrvgZ",
+                "mangledName": "$s17trialuisdkProject26BuyStableCoinView_PreviewsV8previewsQrvgZ",
+                "moduleName": "trialuisdkProject",
+                "static": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BuyStableCoinView_Previews",
+                "printedName": "trialuisdkProject.BuyStableCoinView_Previews",
+                "usr": "s:17trialuisdkProject26BuyStableCoinView_PreviewsV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17trialuisdkProject26BuyStableCoinView_PreviewsVACycfc",
+            "mangledName": "$s17trialuisdkProject26BuyStableCoinView_PreviewsVACycfc",
+            "moduleName": "trialuisdkProject",
+            "implicit": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17trialuisdkProject26BuyStableCoinView_PreviewsV",
+        "mangledName": "$s17trialuisdkProject26BuyStableCoinView_PreviewsV",
+        "moduleName": "trialuisdkProject",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PreviewProvider",
+            "printedName": "PreviewProvider",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Previews",
+                "printedName": "Previews",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI15PreviewProviderP",
+            "mangledName": "$s7SwiftUI15PreviewProviderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_PreviewProvider",
+            "printedName": "_PreviewProvider",
+            "usr": "s:7SwiftUI16_PreviewProviderP",
+            "mangledName": "$s7SwiftUI16_PreviewProviderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "trialuisdkProject",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "trialuisdkProject"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImageView",
+        "printedName": "ImageView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "_imageLoader",
+            "printedName": "_imageLoader",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StateObject",
+                "printedName": "SwiftUI.StateObject<trialuisdkProject.ImageLoader>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageLoader",
+                    "printedName": "trialuisdkProject.ImageLoader",
+                    "usr": "s:17trialuisdkProject11ImageLoaderC"
+                  }
+                ],
+                "usr": "s:7SwiftUI11StateObjectV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject9ImageViewV12_imageLoader33_ABB4E0F52E642FFF0B59FAEDF545EE3BLL7SwiftUI11StateObjectVyAA0cF0CGvp",
+            "mangledName": "$s17trialuisdkProject9ImageViewV12_imageLoader33_ABB4E0F52E642FFF0B59FAEDF545EE3BLL7SwiftUI11StateObjectVyAA0cF0CGvp",
+            "moduleName": "trialuisdkProject",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject9ImageViewV3url10Foundation3URLVvp",
+            "mangledName": "$s17trialuisdkProject9ImageViewV3url10Foundation3URLVvp",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject9ImageViewV3url10Foundation3URLVvg",
+                "mangledName": "$s17trialuisdkProject9ImageViewV3url10Foundation3URLVvg",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageView",
+                "printedName": "trialuisdkProject.ImageView",
+                "usr": "s:17trialuisdkProject9ImageViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17trialuisdkProject9ImageViewV3urlAC10Foundation3URLV_tcfc",
+            "mangledName": "$s17trialuisdkProject9ImageViewV3urlAC10Foundation3URLV_tcfc",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject9ImageViewV4bodyQrvp",
+            "mangledName": "$s17trialuisdkProject9ImageViewV4bodyQrvp",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject9ImageViewV4bodyQrvg",
+                "mangledName": "$s17trialuisdkProject9ImageViewV4bodyQrvg",
+                "moduleName": "trialuisdkProject",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17trialuisdkProject9ImageViewV",
+        "mangledName": "$s17trialuisdkProject9ImageViewV",
+        "moduleName": "trialuisdkProject",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImageLoader",
+        "printedName": "ImageLoader",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "image",
+            "printedName": "image",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject11ImageLoaderC5imageSo7UIImageCSgvp",
+            "mangledName": "$s17trialuisdkProject11ImageLoaderC5imageSo7UIImageCSgvp",
+            "moduleName": "trialuisdkProject",
+            "isOpen": true,
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject11ImageLoaderC5imageSo7UIImageCSgvg",
+                "mangledName": "$s17trialuisdkProject11ImageLoaderC5imageSo7UIImageCSgvg",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject11ImageLoaderC5imageSo7UIImageCSgvs",
+                "mangledName": "$s17trialuisdkProject11ImageLoaderC5imageSo7UIImageCSgvs",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject11ImageLoaderC5imageSo7UIImageCSgvM",
+                "mangledName": "$s17trialuisdkProject11ImageLoaderC5imageSo7UIImageCSgvM",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$image",
+            "printedName": "$image",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Optional<UIKit.UIImage>>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject11ImageLoaderC6$image7Combine9PublishedV9PublisherVySo7UIImageCSg_Gvp",
+            "mangledName": "$s17trialuisdkProject11ImageLoaderC6$image7Combine9PublishedV9PublisherVySo7UIImageCSg_Gvp",
+            "moduleName": "trialuisdkProject",
+            "implicit": true,
+            "isOpen": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<UIKit.UIImage>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject11ImageLoaderC6$image7Combine9PublishedV9PublisherVySo7UIImageCSg_Gvg",
+                "mangledName": "$s17trialuisdkProject11ImageLoaderC6$image7Combine9PublishedV9PublisherVySo7UIImageCSg_Gvg",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<UIKit.UIImage>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject11ImageLoaderC6$image7Combine9PublishedV9PublisherVySo7UIImageCSg_Gvs",
+                "mangledName": "$s17trialuisdkProject11ImageLoaderC6$image7Combine9PublishedV9PublisherVySo7UIImageCSg_Gvs",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject11ImageLoaderC6$image7Combine9PublishedV9PublisherVySo7UIImageCSg_GvM",
+                "mangledName": "$s17trialuisdkProject11ImageLoaderC6$image7Combine9PublishedV9PublisherVySo7UIImageCSg_GvM",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "_image",
+            "printedName": "_image",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Published",
+                "printedName": "Combine.Published<UIKit.UIImage?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:7Combine9PublishedV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject11ImageLoaderC6_image33_ABB4E0F52E642FFF0B59FAEDF545EE3BLL7Combine9PublishedVySo7UIImageCSgGvp",
+            "mangledName": "$s17trialuisdkProject11ImageLoaderC6_image33_ABB4E0F52E642FFF0B59FAEDF545EE3BLL7Combine9PublishedVySo7UIImageCSgGvp",
+            "moduleName": "trialuisdkProject",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "isLoading",
+            "printedName": "isLoading",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject11ImageLoaderC9isLoadingSbvp",
+            "mangledName": "$s17trialuisdkProject11ImageLoaderC9isLoadingSbvp",
+            "moduleName": "trialuisdkProject",
+            "isOpen": true,
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject11ImageLoaderC9isLoadingSbvg",
+                "mangledName": "$s17trialuisdkProject11ImageLoaderC9isLoadingSbvg",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject11ImageLoaderC9isLoadingSbvs",
+                "mangledName": "$s17trialuisdkProject11ImageLoaderC9isLoadingSbvs",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject11ImageLoaderC9isLoadingSbvM",
+                "mangledName": "$s17trialuisdkProject11ImageLoaderC9isLoadingSbvM",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$isLoading",
+            "printedName": "$isLoading",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject11ImageLoaderC10$isLoading7Combine9PublishedV9PublisherVySb_Gvp",
+            "mangledName": "$s17trialuisdkProject11ImageLoaderC10$isLoading7Combine9PublishedV9PublisherVySb_Gvp",
+            "moduleName": "trialuisdkProject",
+            "implicit": true,
+            "isOpen": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject11ImageLoaderC10$isLoading7Combine9PublishedV9PublisherVySb_Gvg",
+                "mangledName": "$s17trialuisdkProject11ImageLoaderC10$isLoading7Combine9PublishedV9PublisherVySb_Gvg",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject11ImageLoaderC10$isLoading7Combine9PublishedV9PublisherVySb_Gvs",
+                "mangledName": "$s17trialuisdkProject11ImageLoaderC10$isLoading7Combine9PublishedV9PublisherVySb_Gvs",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject11ImageLoaderC10$isLoading7Combine9PublishedV9PublisherVySb_GvM",
+                "mangledName": "$s17trialuisdkProject11ImageLoaderC10$isLoading7Combine9PublishedV9PublisherVySb_GvM",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "_isLoading",
+            "printedName": "_isLoading",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Published",
+                "printedName": "Combine.Published<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7Combine9PublishedV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject11ImageLoaderC10_isLoading33_ABB4E0F52E642FFF0B59FAEDF545EE3BLL7Combine9PublishedVySbGvp",
+            "mangledName": "$s17trialuisdkProject11ImageLoaderC10_isLoading33_ABB4E0F52E642FFF0B59FAEDF545EE3BLL7Combine9PublishedVySbGvp",
+            "moduleName": "trialuisdkProject",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "cancellable",
+            "printedName": "cancellable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Combine.AnyCancellable?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyCancellable",
+                    "printedName": "Combine.AnyCancellable",
+                    "usr": "s:7Combine14AnyCancellableC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject11ImageLoaderC11cancellable33_ABB4E0F52E642FFF0B59FAEDF545EE3BLL7Combine14AnyCancellableCSgvp",
+            "mangledName": "$s17trialuisdkProject11ImageLoaderC11cancellable33_ABB4E0F52E642FFF0B59FAEDF545EE3BLL7Combine14AnyCancellableCSgvp",
+            "moduleName": "trialuisdkProject",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17trialuisdkProject11ImageLoaderC4load4fromy10Foundation3URLV_tF",
+            "mangledName": "$s17trialuisdkProject11ImageLoaderC4load4fromy10Foundation3URLV_tF",
+            "moduleName": "trialuisdkProject",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageLoader",
+                "printedName": "trialuisdkProject.ImageLoader",
+                "usr": "s:17trialuisdkProject11ImageLoaderC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17trialuisdkProject11ImageLoaderCACycfc",
+            "mangledName": "$s17trialuisdkProject11ImageLoaderCACycfc",
+            "moduleName": "trialuisdkProject",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17trialuisdkProject11ImageLoaderC",
+        "mangledName": "$s17trialuisdkProject11ImageLoaderC",
+        "moduleName": "trialuisdkProject",
+        "isOpen": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "trialuisdkProject",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CryptoWalletView",
+        "printedName": "CryptoWalletView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "currentAEDBalance",
+            "printedName": "currentAEDBalance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject16CryptoWalletViewV17currentAEDBalanceSdvp",
+            "mangledName": "$s17trialuisdkProject16CryptoWalletViewV17currentAEDBalanceSdvp",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject16CryptoWalletViewV17currentAEDBalanceSdvg",
+                "mangledName": "$s17trialuisdkProject16CryptoWalletViewV17currentAEDBalanceSdvg",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject16CryptoWalletViewV4bodyQrvp",
+            "mangledName": "$s17trialuisdkProject16CryptoWalletViewV4bodyQrvp",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject16CryptoWalletViewV4bodyQrvg",
+                "mangledName": "$s17trialuisdkProject16CryptoWalletViewV4bodyQrvg",
+                "moduleName": "trialuisdkProject",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(currentAEDBalance:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CryptoWalletView",
+                "printedName": "trialuisdkProject.CryptoWalletView",
+                "usr": "s:17trialuisdkProject16CryptoWalletViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17trialuisdkProject16CryptoWalletViewV17currentAEDBalanceACSd_tcfc",
+            "mangledName": "$s17trialuisdkProject16CryptoWalletViewV17currentAEDBalanceACSd_tcfc",
+            "moduleName": "trialuisdkProject",
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17trialuisdkProject16CryptoWalletViewV",
+        "mangledName": "$s17trialuisdkProject16CryptoWalletViewV",
+        "moduleName": "trialuisdkProject",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HeaderView",
+        "printedName": "HeaderView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "currentAEDBalance",
+            "printedName": "currentAEDBalance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject10HeaderViewV17currentAEDBalanceSdvp",
+            "mangledName": "$s17trialuisdkProject10HeaderViewV17currentAEDBalanceSdvp",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject10HeaderViewV17currentAEDBalanceSdvg",
+                "mangledName": "$s17trialuisdkProject10HeaderViewV17currentAEDBalanceSdvg",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "_didTapSend",
+            "printedName": "_didTapSend",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "State",
+                "printedName": "SwiftUI.State<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI5StateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject10HeaderViewV11_didTapSend33_460D8BA8162EA368DF35DF08EF5E338FLL7SwiftUI5StateVySbGvp",
+            "mangledName": "$s17trialuisdkProject10HeaderViewV11_didTapSend33_460D8BA8162EA368DF35DF08EF5E338FLL7SwiftUI5StateVySbGvp",
+            "moduleName": "trialuisdkProject",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "_didTapBuy",
+            "printedName": "_didTapBuy",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "State",
+                "printedName": "SwiftUI.State<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI5StateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject10HeaderViewV10_didTapBuy33_460D8BA8162EA368DF35DF08EF5E338FLL7SwiftUI5StateVySbGvp",
+            "mangledName": "$s17trialuisdkProject10HeaderViewV10_didTapBuy33_460D8BA8162EA368DF35DF08EF5E338FLL7SwiftUI5StateVySbGvp",
+            "moduleName": "trialuisdkProject",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject10HeaderViewV4bodyQrvp",
+            "mangledName": "$s17trialuisdkProject10HeaderViewV4bodyQrvp",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject10HeaderViewV4bodyQrvg",
+                "mangledName": "$s17trialuisdkProject10HeaderViewV4bodyQrvg",
+                "moduleName": "trialuisdkProject",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(currentAEDBalance:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HeaderView",
+                "printedName": "trialuisdkProject.HeaderView",
+                "usr": "s:17trialuisdkProject10HeaderViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17trialuisdkProject10HeaderViewV17currentAEDBalanceACSd_tcfc",
+            "mangledName": "$s17trialuisdkProject10HeaderViewV17currentAEDBalanceACSd_tcfc",
+            "moduleName": "trialuisdkProject",
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17trialuisdkProject10HeaderViewV",
+        "mangledName": "$s17trialuisdkProject10HeaderViewV",
+        "moduleName": "trialuisdkProject",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ActionButton",
+        "printedName": "ActionButton",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "icon",
+            "printedName": "icon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject12ActionButtonV4iconSSvp",
+            "mangledName": "$s17trialuisdkProject12ActionButtonV4iconSSvp",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject12ActionButtonV4iconSSvg",
+                "mangledName": "$s17trialuisdkProject12ActionButtonV4iconSSvg",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject12ActionButtonV4iconSSvs",
+                "mangledName": "$s17trialuisdkProject12ActionButtonV4iconSSvs",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject12ActionButtonV4iconSSvM",
+                "mangledName": "$s17trialuisdkProject12ActionButtonV4iconSSvM",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "label",
+            "printedName": "label",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject12ActionButtonV5labelSSvp",
+            "mangledName": "$s17trialuisdkProject12ActionButtonV5labelSSvp",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject12ActionButtonV5labelSSvg",
+                "mangledName": "$s17trialuisdkProject12ActionButtonV5labelSSvg",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject12ActionButtonV5labelSSvs",
+                "mangledName": "$s17trialuisdkProject12ActionButtonV5labelSSvs",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject12ActionButtonV5labelSSvM",
+                "mangledName": "$s17trialuisdkProject12ActionButtonV5labelSSvM",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject12ActionButtonV4bodyQrvp",
+            "mangledName": "$s17trialuisdkProject12ActionButtonV4bodyQrvp",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject12ActionButtonV4bodyQrvg",
+                "mangledName": "$s17trialuisdkProject12ActionButtonV4bodyQrvg",
+                "moduleName": "trialuisdkProject",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(icon:label:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ActionButton",
+                "printedName": "trialuisdkProject.ActionButton",
+                "usr": "s:17trialuisdkProject12ActionButtonV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17trialuisdkProject12ActionButtonV4icon5labelACSS_SStcfc",
+            "mangledName": "$s17trialuisdkProject12ActionButtonV4icon5labelACSS_SStcfc",
+            "moduleName": "trialuisdkProject",
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17trialuisdkProject12ActionButtonV",
+        "mangledName": "$s17trialuisdkProject12ActionButtonV",
+        "moduleName": "trialuisdkProject",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AssetsListView",
+        "printedName": "AssetsListView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "assets",
+            "printedName": "assets",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[(name: Swift.String, price: Swift.String, value: Swift.String, change: Swift.String, color: SwiftUI.Color, logo: Swift.String)]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(name: Swift.String, price: Swift.String, value: Swift.String, change: Swift.String, color: SwiftUI.Color, logo: Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "SwiftUI.Color",
+                        "usr": "s:7SwiftUI5ColorV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject14AssetsListViewV6assetsSaySS4name_SS5priceSS5valueSS6change7SwiftUI5ColorV5colorSS4logotGvp",
+            "mangledName": "$s17trialuisdkProject14AssetsListViewV6assetsSaySS4name_SS5priceSS5valueSS6change7SwiftUI5ColorV5colorSS4logotGvp",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[(name: Swift.String, price: Swift.String, value: Swift.String, change: Swift.String, color: SwiftUI.Color, logo: Swift.String)]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(name: Swift.String, price: Swift.String, value: Swift.String, change: Swift.String, color: SwiftUI.Color, logo: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Color",
+                            "printedName": "SwiftUI.Color",
+                            "usr": "s:7SwiftUI5ColorV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject14AssetsListViewV6assetsSaySS4name_SS5priceSS5valueSS6change7SwiftUI5ColorV5colorSS4logotGvg",
+                "mangledName": "$s17trialuisdkProject14AssetsListViewV6assetsSaySS4name_SS5priceSS5valueSS6change7SwiftUI5ColorV5colorSS4logotGvg",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject14AssetsListViewV4bodyQrvp",
+            "mangledName": "$s17trialuisdkProject14AssetsListViewV4bodyQrvp",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject14AssetsListViewV4bodyQrvg",
+                "mangledName": "$s17trialuisdkProject14AssetsListViewV4bodyQrvg",
+                "moduleName": "trialuisdkProject",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AssetsListView",
+                "printedName": "trialuisdkProject.AssetsListView",
+                "usr": "s:17trialuisdkProject14AssetsListViewV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17trialuisdkProject14AssetsListViewVACycfc",
+            "mangledName": "$s17trialuisdkProject14AssetsListViewVACycfc",
+            "moduleName": "trialuisdkProject",
+            "implicit": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17trialuisdkProject14AssetsListViewV",
+        "mangledName": "$s17trialuisdkProject14AssetsListViewV",
+        "moduleName": "trialuisdkProject",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AssetRow",
+        "printedName": "AssetRow",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject8AssetRowV4nameSSvp",
+            "mangledName": "$s17trialuisdkProject8AssetRowV4nameSSvp",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject8AssetRowV4nameSSvg",
+                "mangledName": "$s17trialuisdkProject8AssetRowV4nameSSvg",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject8AssetRowV4nameSSvs",
+                "mangledName": "$s17trialuisdkProject8AssetRowV4nameSSvs",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject8AssetRowV4nameSSvM",
+                "mangledName": "$s17trialuisdkProject8AssetRowV4nameSSvM",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "price",
+            "printedName": "price",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject8AssetRowV5priceSSvp",
+            "mangledName": "$s17trialuisdkProject8AssetRowV5priceSSvp",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject8AssetRowV5priceSSvg",
+                "mangledName": "$s17trialuisdkProject8AssetRowV5priceSSvg",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject8AssetRowV5priceSSvs",
+                "mangledName": "$s17trialuisdkProject8AssetRowV5priceSSvs",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject8AssetRowV5priceSSvM",
+                "mangledName": "$s17trialuisdkProject8AssetRowV5priceSSvM",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "value",
+            "printedName": "value",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject8AssetRowV5valueSSvp",
+            "mangledName": "$s17trialuisdkProject8AssetRowV5valueSSvp",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject8AssetRowV5valueSSvg",
+                "mangledName": "$s17trialuisdkProject8AssetRowV5valueSSvg",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject8AssetRowV5valueSSvs",
+                "mangledName": "$s17trialuisdkProject8AssetRowV5valueSSvs",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject8AssetRowV5valueSSvM",
+                "mangledName": "$s17trialuisdkProject8AssetRowV5valueSSvM",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "logo",
+            "printedName": "logo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject8AssetRowV4logoSSSgvp",
+            "mangledName": "$s17trialuisdkProject8AssetRowV4logoSSSgvp",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 3,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject8AssetRowV4logoSSSgvg",
+                "mangledName": "$s17trialuisdkProject8AssetRowV4logoSSSgvg",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject8AssetRowV4logoSSSgvs",
+                "mangledName": "$s17trialuisdkProject8AssetRowV4logoSSSgvs",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject8AssetRowV4logoSSSgvM",
+                "mangledName": "$s17trialuisdkProject8AssetRowV4logoSSSgvM",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "change",
+            "printedName": "change",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject8AssetRowV6changeSSvp",
+            "mangledName": "$s17trialuisdkProject8AssetRowV6changeSSvp",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 4,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject8AssetRowV6changeSSvg",
+                "mangledName": "$s17trialuisdkProject8AssetRowV6changeSSvg",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject8AssetRowV6changeSSvs",
+                "mangledName": "$s17trialuisdkProject8AssetRowV6changeSSvs",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject8AssetRowV6changeSSvM",
+                "mangledName": "$s17trialuisdkProject8AssetRowV6changeSSvM",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "changeColor",
+            "printedName": "changeColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject8AssetRowV11changeColor7SwiftUI0F0Vvp",
+            "mangledName": "$s17trialuisdkProject8AssetRowV11changeColor7SwiftUI0F0Vvp",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 5,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject8AssetRowV11changeColor7SwiftUI0F0Vvg",
+                "mangledName": "$s17trialuisdkProject8AssetRowV11changeColor7SwiftUI0F0Vvg",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject8AssetRowV11changeColor7SwiftUI0F0Vvs",
+                "mangledName": "$s17trialuisdkProject8AssetRowV11changeColor7SwiftUI0F0Vvs",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject8AssetRowV11changeColor7SwiftUI0F0VvM",
+                "mangledName": "$s17trialuisdkProject8AssetRowV11changeColor7SwiftUI0F0VvM",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject8AssetRowV4bodyQrvp",
+            "mangledName": "$s17trialuisdkProject8AssetRowV4bodyQrvp",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject8AssetRowV4bodyQrvg",
+                "mangledName": "$s17trialuisdkProject8AssetRowV4bodyQrvg",
+                "moduleName": "trialuisdkProject",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(name:price:value:logo:change:changeColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AssetRow",
+                "printedName": "trialuisdkProject.AssetRow",
+                "usr": "s:17trialuisdkProject8AssetRowV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17trialuisdkProject8AssetRowV4name5price5value4logo6change0I5ColorACSS_S3SSgSS7SwiftUI0J0Vtcfc",
+            "mangledName": "$s17trialuisdkProject8AssetRowV4name5price5value4logo6change0I5ColorACSS_S3SSgSS7SwiftUI0J0Vtcfc",
+            "moduleName": "trialuisdkProject",
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17trialuisdkProject8AssetRowV",
+        "mangledName": "$s17trialuisdkProject8AssetRowV",
+        "moduleName": "trialuisdkProject",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BottomNavBar",
+        "printedName": "BottomNavBar",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject12BottomNavBarV4bodyQrvp",
+            "mangledName": "$s17trialuisdkProject12BottomNavBarV4bodyQrvp",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject12BottomNavBarV4bodyQrvg",
+                "mangledName": "$s17trialuisdkProject12BottomNavBarV4bodyQrvg",
+                "moduleName": "trialuisdkProject",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BottomNavBar",
+                "printedName": "trialuisdkProject.BottomNavBar",
+                "usr": "s:17trialuisdkProject12BottomNavBarV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17trialuisdkProject12BottomNavBarVACycfc",
+            "mangledName": "$s17trialuisdkProject12BottomNavBarVACycfc",
+            "moduleName": "trialuisdkProject",
+            "implicit": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17trialuisdkProject12BottomNavBarV",
+        "mangledName": "$s17trialuisdkProject12BottomNavBarV",
+        "moduleName": "trialuisdkProject",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BottomNavItem",
+        "printedName": "BottomNavItem",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "icon",
+            "printedName": "icon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject13BottomNavItemV4iconSSvp",
+            "mangledName": "$s17trialuisdkProject13BottomNavItemV4iconSSvp",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject13BottomNavItemV4iconSSvg",
+                "mangledName": "$s17trialuisdkProject13BottomNavItemV4iconSSvg",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject13BottomNavItemV4iconSSvs",
+                "mangledName": "$s17trialuisdkProject13BottomNavItemV4iconSSvs",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject13BottomNavItemV4iconSSvM",
+                "mangledName": "$s17trialuisdkProject13BottomNavItemV4iconSSvM",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "label",
+            "printedName": "label",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject13BottomNavItemV5labelSSvp",
+            "mangledName": "$s17trialuisdkProject13BottomNavItemV5labelSSvp",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject13BottomNavItemV5labelSSvg",
+                "mangledName": "$s17trialuisdkProject13BottomNavItemV5labelSSvg",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject13BottomNavItemV5labelSSvs",
+                "mangledName": "$s17trialuisdkProject13BottomNavItemV5labelSSvs",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject13BottomNavItemV5labelSSvM",
+                "mangledName": "$s17trialuisdkProject13BottomNavItemV5labelSSvM",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isSelected",
+            "printedName": "isSelected",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject13BottomNavItemV10isSelectedSbvp",
+            "mangledName": "$s17trialuisdkProject13BottomNavItemV10isSelectedSbvp",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject13BottomNavItemV10isSelectedSbvg",
+                "mangledName": "$s17trialuisdkProject13BottomNavItemV10isSelectedSbvg",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject13BottomNavItemV10isSelectedSbvs",
+                "mangledName": "$s17trialuisdkProject13BottomNavItemV10isSelectedSbvs",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject13BottomNavItemV10isSelectedSbvM",
+                "mangledName": "$s17trialuisdkProject13BottomNavItemV10isSelectedSbvM",
+                "moduleName": "trialuisdkProject",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject13BottomNavItemV4bodyQrvp",
+            "mangledName": "$s17trialuisdkProject13BottomNavItemV4bodyQrvp",
+            "moduleName": "trialuisdkProject",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject13BottomNavItemV4bodyQrvg",
+                "mangledName": "$s17trialuisdkProject13BottomNavItemV4bodyQrvg",
+                "moduleName": "trialuisdkProject",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(icon:label:isSelected:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BottomNavItem",
+                "printedName": "trialuisdkProject.BottomNavItem",
+                "usr": "s:17trialuisdkProject13BottomNavItemV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17trialuisdkProject13BottomNavItemV4icon5label10isSelectedACSS_SSSbtcfc",
+            "mangledName": "$s17trialuisdkProject13BottomNavItemV4icon5label10isSelectedACSS_SSSbtcfc",
+            "moduleName": "trialuisdkProject",
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17trialuisdkProject13BottomNavItemV",
+        "mangledName": "$s17trialuisdkProject13BottomNavItemV",
+        "moduleName": "trialuisdkProject",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CryptoWalletView_Previews",
+        "printedName": "CryptoWalletView_Previews",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "previews",
+            "printedName": "previews",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17trialuisdkProject25CryptoWalletView_PreviewsV8previewsQrvpZ",
+            "mangledName": "$s17trialuisdkProject25CryptoWalletView_PreviewsV8previewsQrvpZ",
+            "moduleName": "trialuisdkProject",
+            "static": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17trialuisdkProject25CryptoWalletView_PreviewsV8previewsQrvgZ",
+                "mangledName": "$s17trialuisdkProject25CryptoWalletView_PreviewsV8previewsQrvgZ",
+                "moduleName": "trialuisdkProject",
+                "static": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CryptoWalletView_Previews",
+                "printedName": "trialuisdkProject.CryptoWalletView_Previews",
+                "usr": "s:17trialuisdkProject25CryptoWalletView_PreviewsV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17trialuisdkProject25CryptoWalletView_PreviewsVACycfc",
+            "mangledName": "$s17trialuisdkProject25CryptoWalletView_PreviewsVACycfc",
+            "moduleName": "trialuisdkProject",
+            "implicit": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17trialuisdkProject25CryptoWalletView_PreviewsV",
+        "mangledName": "$s17trialuisdkProject25CryptoWalletView_PreviewsV",
+        "moduleName": "trialuisdkProject",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PreviewProvider",
+            "printedName": "PreviewProvider",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Previews",
+                "printedName": "Previews",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI15PreviewProviderP",
+            "mangledName": "$s7SwiftUI15PreviewProviderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_PreviewProvider",
+            "printedName": "_PreviewProvider",
+            "usr": "s:7SwiftUI16_PreviewProviderP",
+            "mangledName": "$s7SwiftUI16_PreviewProviderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/user\/Documents\/Trial projects\/trialuisdkProject\/trialuisdkProject\/Public Interfaces\/introScreen.swift",
+      "kind": "FloatLiteral",
+      "offset": 940,
+      "length": 9,
+      "value": "200000.25"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Trial projects\/trialuisdkProject\/trialuisdkProject\/PrivateCode\/BuyStableCoin.swift",
+      "kind": "StringLiteral",
+      "offset": 230,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Trial projects\/trialuisdkProject\/trialuisdkProject\/PrivateCode\/BuyStableCoin.swift",
+      "kind": "StringLiteral",
+      "offset": 278,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Trial projects\/trialuisdkProject\/trialuisdkProject\/PrivateCode\/ImageViewWithURL.swift",
+      "kind": "BooleanLiteral",
+      "offset": 844,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Trial projects\/trialuisdkProject\/trialuisdkProject\/PrivateCode\/CryptoWalletview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 577,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Trial projects\/trialuisdkProject\/trialuisdkProject\/PrivateCode\/CryptoWalletview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 618,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Trial projects\/trialuisdkProject\/trialuisdkProject\/PrivateCode\/CryptoWalletview.swift",
+      "kind": "StringLiteral",
+      "offset": 2892,
+      "length": 8,
+      "value": "\"AECoin\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Trial projects\/trialuisdkProject\/trialuisdkProject\/PrivateCode\/CryptoWalletview.swift",
+      "kind": "StringLiteral",
+      "offset": 2909,
+      "length": 13,
+      "value": "\"2028.73 AED\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Trial projects\/trialuisdkProject\/trialuisdkProject\/PrivateCode\/CryptoWalletview.swift",
+      "kind": "StringLiteral",
+      "offset": 2931,
+      "length": 10,
+      "value": "\"8,900.00\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Trial projects\/trialuisdkProject\/trialuisdkProject\/PrivateCode\/CryptoWalletview.swift",
+      "kind": "StringLiteral",
+      "offset": 2951,
+      "length": 8,
+      "value": "\"+4.27%\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Trial projects\/trialuisdkProject\/trialuisdkProject\/PrivateCode\/CryptoWalletview.swift",
+      "kind": "StringLiteral",
+      "offset": 2987,
+      "length": 62,
+      "value": "\"https:\/\/cryptologos.cc\/logos\/superverse-super-logo.png?v=040\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Trial projects\/trialuisdkProject\/trialuisdkProject\/PrivateCode\/CryptoWalletview.swift",
+      "kind": "StringLiteral",
+      "offset": 3067,
+      "length": 10,
+      "value": "\"Etherium\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Trial projects\/trialuisdkProject\/trialuisdkProject\/PrivateCode\/CryptoWalletview.swift",
+      "kind": "StringLiteral",
+      "offset": 3086,
+      "length": 13,
+      "value": "\"1426.60 AED\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Trial projects\/trialuisdkProject\/trialuisdkProject\/PrivateCode\/CryptoWalletview.swift",
+      "kind": "StringLiteral",
+      "offset": 3108,
+      "length": 8,
+      "value": "\"550.00\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Trial projects\/trialuisdkProject\/trialuisdkProject\/PrivateCode\/CryptoWalletview.swift",
+      "kind": "StringLiteral",
+      "offset": 3126,
+      "length": 8,
+      "value": "\"+2.05%\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Trial projects\/trialuisdkProject\/trialuisdkProject\/PrivateCode\/CryptoWalletview.swift",
+      "kind": "StringLiteral",
+      "offset": 3162,
+      "length": 58,
+      "value": "\"https:\/\/cryptologos.cc\/logos\/ethereum-eth-logo.png?v=040\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Trial projects\/trialuisdkProject\/trialuisdkProject\/PrivateCode\/CryptoWalletview.swift",
+      "kind": "StringLiteral",
+      "offset": 3238,
+      "length": 9,
+      "value": "\"Bitcoin\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Trial projects\/trialuisdkProject\/trialuisdkProject\/PrivateCode\/CryptoWalletview.swift",
+      "kind": "StringLiteral",
+      "offset": 3256,
+      "length": 13,
+      "value": "\"1355.00 AED\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Trial projects\/trialuisdkProject\/trialuisdkProject\/PrivateCode\/CryptoWalletview.swift",
+      "kind": "StringLiteral",
+      "offset": 3278,
+      "length": 10,
+      "value": "\"2,010.00\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Trial projects\/trialuisdkProject\/trialuisdkProject\/PrivateCode\/CryptoWalletview.swift",
+      "kind": "StringLiteral",
+      "offset": 3298,
+      "length": 8,
+      "value": "\"-1.03%\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Trial projects\/trialuisdkProject\/trialuisdkProject\/PrivateCode\/CryptoWalletview.swift",
+      "kind": "StringLiteral",
+      "offset": 3332,
+      "length": 57,
+      "value": "\"https:\/\/cryptologos.cc\/logos\/bitcoin-btc-logo.png?v=040\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Trial projects\/trialuisdkProject\/trialuisdkProject\/PrivateCode\/CryptoWalletview.swift",
+      "kind": "StringLiteral",
+      "offset": 3407,
+      "length": 9,
+      "value": "\"Polygon\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Trial projects\/trialuisdkProject\/trialuisdkProject\/PrivateCode\/CryptoWalletview.swift",
+      "kind": "StringLiteral",
+      "offset": 3425,
+      "length": 12,
+      "value": "\"209.90 AED\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Trial projects\/trialuisdkProject\/trialuisdkProject\/PrivateCode\/CryptoWalletview.swift",
+      "kind": "StringLiteral",
+      "offset": 3446,
+      "length": 8,
+      "value": "\"943.00\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Trial projects\/trialuisdkProject\/trialuisdkProject\/PrivateCode\/CryptoWalletview.swift",
+      "kind": "StringLiteral",
+      "offset": 3464,
+      "length": 8,
+      "value": "\"+0.04%\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Trial projects\/trialuisdkProject\/trialuisdkProject\/PrivateCode\/CryptoWalletview.swift",
+      "kind": "StringLiteral",
+      "offset": 3500,
+      "length": 59,
+      "value": "\"https:\/\/cryptologos.cc\/logos\/polygon-matic-logo.png?v=040\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Trial projects\/trialuisdkProject\/trialuisdkProject\/PrivateCode\/CryptoWalletview.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5693,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}
